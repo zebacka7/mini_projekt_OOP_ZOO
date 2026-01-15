@@ -57,4 +57,46 @@ zoo.service - Logika biznesowa (SimulationService - symulacja, ReportingService 
 0. Run Simulation & Exit
 Choose an option: 0
 
+--- Activity: Simba ---
+Roar
+Simba swims 10m (hates water).
+Simba does a mighty jump through the ring!
+Simba eats Meat
+
+--- Activity: Pinky ---
+Honk-honk!
+Pinky wades through the water on long legs.
+Pinky eats Worms and algae
+
+--- Activity: Pascal ---
+Click-click
+Pascal swims quickly across the surface.
+Pascal eats Insects
+
+--- Activity: Nagini ---
+Ssssss!
+Nagini slithers smoothly through the water.
+Nagini swallows the prey whole (Mice).
+
+--- Activity: Skipper ---
+Squawk!
+Skipper swims like a torpedo!
+Skipper slides on its belly.
+Skipper catches Fish underwater.
+
+--- Activity: Dolly ---
+Baaaa!
+Dolly paddles awkwardly in the water.
+Dolly grazes on fresh Grass.
+
+=== Generating report ===
+--- CSV REPORT ---
+TYPE: Lion | Name: Simba | Age: 5 | Fur Color: Golden | Diet: Meat
+TYPE: Flamingo | Name: Pinky | Age: 4 | Wingspan: 1.5m | Diet: Worms and algae
+TYPE: Gekko | Name: Pascal | Age: 2 | Venomous: No | Diet: Insects
+TYPE: Snake | Name: Nagini | Age: 8 | Venomous: Yes | Diet: Mice
+TYPE: Penguin | Name: Skipper | Age: 3 | Wings: 60cm | Diet: Fish
+TYPE: Sheep | Name: Dolly | Age: 4 | Fur: White Wool | Diet: Grass
+--- End of report ---
+
 
