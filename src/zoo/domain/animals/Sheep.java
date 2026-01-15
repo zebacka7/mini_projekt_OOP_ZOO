@@ -6,7 +6,7 @@ import zoo.domain.interfaces.*;
 public class Sheep extends Mammal implements Feedable, Exportable, Swimmable {
 
     public Sheep(String name, int age, String furColor) {
-        super(name, age, furColor, "grass"); 
+        super(name, age, furColor, "Grass"); 
     }
 
     @Override

@@ -6,7 +6,7 @@ import zoo.domain.interfaces.*;
 public class Gekko extends Reptile implements Feedable, Exportable, Swimmable {
 
     public Gekko(String name, int age, String isVenomous) {
-        super(name, age, isVenomous, "insects"); 
+        super(name, age, isVenomous, "Insects"); 
     }
 
     @Override

@@ -6,7 +6,7 @@ import zoo.domain.interfaces.*;
 public class Snake extends Reptile implements Feedable, Swimmable, Exportable {
 
     public Snake(String name, int age, String isVenomous) {
-        super(name, age, isVenomous, "mice"); 
+        super(name, age, isVenomous, "Mice"); 
     }
 
     @Override

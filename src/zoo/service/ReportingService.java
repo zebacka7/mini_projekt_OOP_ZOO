@@ -6,18 +6,18 @@ import zoo.domain.interfaces.Exportable;
 public class ReportingService {
 
     public void generateReport(List<Exportable> items) {
-        System.out.println("\n=== GENEROWANIE RAPORTU AKTYWNOŚCI ===");
-        System.out.println("--- RAPORT CSV ---");
+        System.out.println("\n=== Generating report ===");
+        System.out.println("--- CSV REPORT ---");
         
         if (items.isEmpty()) {
-            System.out.println("(Brak danych do raportu)");
+            System.out.println("(No data to report)");
             return;
         }
 
         for (Exportable item : items) {
             System.out.println(item.toDataFormat());
         }
-        
-        System.out.println("--- KONIEC RAPORTU ---\n");
+
+        System.out.println("--- End of report ---\n");
     }
 }

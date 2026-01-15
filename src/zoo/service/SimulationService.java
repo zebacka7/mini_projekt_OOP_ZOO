@@ -12,11 +12,11 @@ public class SimulationService {
         if(animal != null)
         {
             animals.add(animal);
-        System.out.println(animal.getName() + " zostal dodany do symulacji");
+        System.out.println(animal.getName() + " has been added to the simulation.");
         }
         else
         {
-            System.out.println("zwierze nie moze byc null");
+            System.out.println("Animal cannot be null");
         }
     }
     
@@ -29,7 +29,7 @@ public class SimulationService {
 
 public void runSimulation() {
     for (Animal a : animals) {
-        System.out.println("\n--- Aktywność: " + a.getName() + " ---");
+        System.out.println("\n--- Activity: " + a.getName() + " ---");
         
         System.out.println(a.sound()); 
 

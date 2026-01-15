@@ -6,7 +6,7 @@ import zoo.domain.interfaces.*;
 public class Penguin extends Bird implements Feedable, Swimmable, Trainable, Exportable {
 
     public Penguin(String name, int age, String wingSpan) {
-        super(name, age, wingSpan, "no", "fish"); 
+        super(name, age, wingSpan, "No", "Fish"); 
     }
 
     @Override

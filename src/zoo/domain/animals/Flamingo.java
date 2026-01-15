@@ -6,7 +6,7 @@ import zoo.domain.interfaces.*;
 public class Flamingo extends Bird implements Feedable, Swimmable, Exportable {
 
     public Flamingo(String name, int age, String wingSpan) {
-        super(name, age, wingSpan, "yes", "worms and algae"); 
+        super(name, age, wingSpan, "Yes", "Worms and algae"); 
     }
 
     @Override

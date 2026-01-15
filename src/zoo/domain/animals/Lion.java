@@ -6,7 +6,7 @@ import zoo.domain.interfaces.*;
 public class Lion extends Mammal implements Feedable, Exportable, Trainable, Swimmable {
 
     public Lion(String name, int age, String furColor) {
-        super(name, age, furColor, "meat"); 
+        super(name, age, furColor, "Meat"); 
     }
 
     @Override
